@@ -36,6 +36,7 @@ num_animals = int(input("Please enter number of animals to classify: "))
 #check that there are enough input animals
 if(num_animals > len(attribute_list) or num_animals < 1):
     print("invalid number of animals")
+    exit()
 
 #student test code
 print("num_animals =", num_animals)
