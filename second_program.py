@@ -4,9 +4,7 @@ attributes = ["spots", "antlers", "hooves", "big claws", "wings", "beak", "big e
 
 f = open("animal_attributes.txt", "w")
 
-animals = []
 for i in range (20):
-    animals.append([attributes[random.randint(0,6)], attributes[random.randint(0,6)]])
     f.write(attributes[random.randint(0,6)] + ", " + attributes[random.randint(0,6)] + "\n")
 
 f.close()
